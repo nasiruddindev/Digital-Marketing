@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../components/Container'
 import Grid from '../components/Grid'
 import Image from '../components/Image'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Logo.png'
 import FotterList from '../components/FotterList'
 
 const Fotter = () => {

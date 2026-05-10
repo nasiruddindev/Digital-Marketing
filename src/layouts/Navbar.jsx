@@ -2,7 +2,7 @@ import React from 'react'
 import List from '../components/List'
 import Container from '../components/Container'
 import Flex from '../components/Flex'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Logo.png'
 import Image from '../components/Image'
 import Button from '../components/Button'
 
