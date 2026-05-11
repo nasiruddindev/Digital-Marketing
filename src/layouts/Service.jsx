@@ -19,7 +19,7 @@ const Service = () => {
         <Title text="Our Service" className="text-center py-4"/>
         <Pera text="We have been providing great flooring solutions service." className="w-83 text-center mx-auto"/>
 
-        <Grid className="grid-cols-3 gap-x-7.5 mt-13">
+        <Grid className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 lg:gap-y-0 w-87.5 md:w-full mx-auto  gap-x-7.5 mt-13">
           <div className='px-5 py-12 bg-[#EBF7E9] rounded-[20px]'>
               <Card src={Card1} title="Marketing Strategy" text="Social Media has changed the way we interact & do business while creating" link="Read more"/>
           </div>

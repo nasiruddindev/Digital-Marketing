@@ -12,12 +12,12 @@ const Client = () => {
   return (
     <section className='py-25'>
       <Container>
-        <Grid className="grid-cols-3 gap-7.5">
+        <Grid className="lg:grid-cols-3 md:grid-cols-2 gap-y-10 lg:gap-y-0 gap-7.5">
           <div>
-            <Image src={TitleIcon}/>
-            <Title text="Client Review" className="py-5"/>
-            <Pera text="people use digital devices instead of visiting physical shops, digital marketing campaigns are becoming more prevalent and efficient.  "/>
-            <div className='flex gap-x-5 mt-5'>
+            <Image src={TitleIcon} className="mx-auto md:mx-0"/>
+            <Title text="Client Review" className="py-5 text-center md:text-start"/>
+            <Pera text="people use digital devices instead of visiting physical shops, digital marketing campaigns are becoming more prevalent and efficient.  " className="text-center md:text-start px-5 md:px-0"/>
+            <div className='flex justify-center md:justify-start gap-x-5 mt-5'>
               <div className='group bg-secondary p-5 rounded-full border border-transparent hover:bg-transparent hover:border-secondary duration-300'><IoIosArrowBack className='text-lg text-white group-hover:text-secondary duration-300'/></div>
 
 
@@ -29,7 +29,7 @@ const Client = () => {
 
 
 
-          <div className='p-10 bg-[#D8EAFF] rounded-[20px] '>
+          <div className='w-[85%] sm:w-125 md:w-full mx-auto md:mx-0 p-10 bg-[#D8EAFF] rounded-[20px] '>
             <Pera text="Content Marketing is the other fold of online advertisement. If you are looking to build. digital marketing campaigns are becoming more prevalent and efficient. "/>
 
             <div className='flex items-center gap-x-5 mt-5' >
@@ -43,7 +43,7 @@ const Client = () => {
 
 
 
-          <div className='p-10 shadow-xl rounded-[20px]'>
+          <div className='w-[85%] sm:w-125 md:w-full mx-auto md:mx-0 p-10 shadow-xl rounded-[20px]'>
             <Pera text="Content Marketing is the other fold of online advertisement. If you are looking to build. digital marketing campaigns are becoming more prevalent and efficient. "/>
 
             <div className='flex items-center gap-x-5 mt-5' >

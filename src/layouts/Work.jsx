@@ -12,7 +12,7 @@ const Work = () => {
       <Container>
         <Image src={TitleIcon} className="mx-auto"/>
         <Title text="Work Showcase" className="text-center pt-4"/>
-        <ul className='flex gap-x-7.5 justify-center mt-12'>
+        <ul className='flex-wrap flex gap-y-5 md:gap-y-0 gap-x-7.5 justify-center mt-12'>
           <List text="All"/>
           <List text="Digital Mkt"/>
           <List text="Branding"/>
@@ -20,16 +20,16 @@ const Work = () => {
           <List text="Social Media Mkt"/>
         </ul>
 
-        <Grid className=" mt-10 grid-cols-4 gap-7.5">
+        <Grid className="hidden md:grid  mt-10 grid-cols-4 gap-7.5">
           <div className='bg-gray-700 h-86 rounded-[20px]'></div>
           <div className='bg-green-600 h-86 rounded-[20px] col-span-2'></div>
           <div className='bg-gray-700 h-86 rounded-[20px]'></div>
 
         </Grid>
-        <Grid className=" mt-7.5 grid-cols-3 gap-7.5">
-          <div className='bg-gray-700 h-108 rounded-[20px] '></div>
-          <div className='bg-gray-700 h-108 rounded-[20px] '></div>
-          <div className='bg-gray-700 h-108 rounded-[20px] '></div>
+        <Grid className="mt-7.5 md:grid-cols-3 gap-7.5">
+          <div className='bg-gray-700 w-87 mx-auto md:w-full h-108 rounded-[20px] '></div>
+          <div className='bg-gray-700 w-87 mx-auto md:w-full h-108 rounded-[20px] '></div>
+          <div className='bg-gray-700 w-87 mx-auto md:w-full h-108 rounded-[20px] '></div>
         </Grid>
       </Container>
     </section>

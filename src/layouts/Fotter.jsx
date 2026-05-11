@@ -9,14 +9,14 @@ const Fotter = () => {
   return (
     <section className='py-25'>
       <Container>
-        <Grid className="grid-cols-5 gap-7.5">
-          <div className='col-span-2'>
-            <Image src={Logo}/>
-            <p className='text-lg font-normal text-pera font-nunito pt-11'>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
+        <Grid className="grid-cols-1  sm:grid-cols-2 md:grid-cols-5 gap-7.5">
+          <div className='md:col-span-2'>
+            <Image src={Logo} className="mx-auto md:mx-0"/>
+            <p className='text-lg font-normal text-pera font-nunito pt-11 text-center md:text-start px-5 md:px-0'>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
           </div>
 
 
-          <div>
+          <div className='mx-auto md:mx-0'>
             <h3 className='font-semibold font-open text-2xl text-[#413F45] pb-12'>Features</h3>
             <FotterList text="Home"/>
             <FotterList text="About"/>
@@ -25,12 +25,14 @@ const Fotter = () => {
             <FotterList text="Blog"/>
           </div>
 
-          <div>
+          <div className='mx-auto md:mx-0'>
             <h3 className='font-semibold font-open text-2xl text-[#413F45] pb-12'>Product</h3>
             <FotterList text="Company Growth"/>
             <FotterList text="Time Tracking"/>
           </div>
-          <div>
+
+
+          <div className='mx-auto md:mx-0'>
             <h3 className='font-semibold font-open text-2xl text-[#413F45] pb-12'>Support</h3>
             <FotterList text="Customer Service"/>
             <FotterList text="Accessbility"/>

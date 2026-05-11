@@ -17,25 +17,25 @@ const About = () => {
   return (
     <section className='py-25'>
       <Container>
-        <Grid className="grid-cols-2 gap-x-7.5 items-center justify-between">
-          <div className='h-117 max-w-110 bg-red-600 rounded-[60px]'>
+        <Grid className=" md:grid-cols-2 gap-x-7.5 items-center justify-between">
+          <div className='h-117 max-w-110 mx-auto md:mx-0  rounded-[60px]'>
             <Image src={AboutImg} className="w-full h-full"/>
           </div>
 
 
 
           <div>
-            <Image src={TitleIcon}/>
-            <Title text="Who We Are" className="py-4"/>
-            <Pera text="We are a Dhaka based Digital Communication Agency committed to creating an actionable strategy, online marketing & technology solution for our partners. As a multidisciplinary company, we operate as a unified," className="w-110 leading-8"/>
+            <Image src={TitleIcon} className="mx-auto md:mx-0"/>
+            <Title text="Who We Are" className="py-4 text-center md:text-start"/>
+            <Pera text="We are a Dhaka based Digital Communication Agency committed to creating an actionable strategy, online marketing & technology solution for our partners. As a multidisciplinary company, we operate as a unified," className="text-center md:text-start lg:w-110 px-2 md:px-0leading-8"/>
 
-            <Grid className="grid-cols-3 gap-y-10 justify-between mt-6.5">
-              <Image src={One}/>
-              <Image src={Two}/>
-              <Image src={Three}/>
-              <Image src={Four}/>
-              <Image src={Five}/>
-              <Image src={Six}/>
+            <Grid className="grid-cols-3 gap-y-10 items-center mt-6.5">
+              <Image src={One} className="mx-auto md:mx-0"/>
+              <Image src={Two} className="mx-auto md:mx-0"/>
+              <Image src={Three} className="mx-auto md:mx-0"/>
+              <Image src={Four} className="mx-auto md:mx-0"/>
+              <Image src={Five} className="mx-auto md:mx-0"/>
+              <Image src={Six} className="mx-auto md:mx-0"/>
 
             </Grid>
           </div>
